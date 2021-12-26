@@ -1,4 +1,4 @@
-.article__list {
+.article {
   display: flex;
 }
 .article__item {
@@ -16,7 +16,7 @@
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.article-box {
+.article__box {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;

@@ -1,14 +1,11 @@
-.work-section {
+.section__padding-top {
   padding-top: 0;
 }
-.work__list {
+.work {
   display: flex;
 }
 .working__item:not(:last-child) {
   margin-right: 30px;
-}
-.working__title {
-  margin-bottom: 50px;
 }
 .working__item {
   position: relative;

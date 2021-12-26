@@ -13,35 +13,36 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/main.min.css">
     </head>
+
     <body>
                     <!-- Sectiov Header -->
         <header class="header">
             <div class="conteiner header__conteiner">
                 <nav class="header__nav">
-                    <a class="logo header-logo" href="./index.html">
-                        <span class="header-logo__web">Web</span>Studio
+                    <a class="logo header__logo" href="./index.html">
+                        <span class="logo__web">Web</span>Studio
                     </a>
-                    <ul class="list header__list">
-                        <li class="header__item">
-                            <a class="header__link activ" href="./index.html">Студия</a>
+                    <ul class="list site-nav__list">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link activ" href="./index.html">Студия</a>
                         </li>
-                        <li class="header__item">
-                            <a class="header__link" href="./portfolio.html">Портфолио</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
                         </li>
-                        <li class="header__item">
-                            <a class="header__link" href="#contacts">Контакты</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#contacts">Контакты</a>
                         </li>
                     </ul>
                 </nav>
-                <ul class="contacts contacts__list">
-                    <li class="header__item">
+                <ul class="contacts">
+                    <li class="site-nav__item">
                         <a class="contacts__link" href="mailto:info@devstudio.com">
                             <svg class="contacts__icon" width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope"></use>
                             </svg>info@devstudio.com
                         </a>
                     </li>
-                    <li class="header__item">
+                    <li class="site-nav__item">
                         <a class="contacts__link" href="tel:+380961111111">
                             <svg class="contacts__icon" width="10" height="16">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
@@ -65,10 +66,10 @@
             <section class="section">
                 <div class="conteiner">
                     <h2 class="visually-hidden">Особености</h2>
-                        <ul class="article__list">
+                        <ul class="article">
                             <li class="article__item">
-                                <div class="article-box">
-                                    <svg class="article-box__icon" width="70" height="70">
+                                <div class="article__box">
+                                    <svg class="article__icon" width="70" height="70">
                                         <use href="./images/icons.svg#icon-antenna"></use>
                                     </svg>
                                 </div>
@@ -76,8 +77,8 @@
                                     <p class="article__desc">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                             </li>
                             <li class="article__item">
-                                <div class="article-box">
-                                    <svg class="article-box__icon" width="70" height="70">
+                                <div class="article__box">
+                                    <svg class="article__icon" width="70" height="70">
                                         <use href="./images/icons.svg#icon-clock"></use>
                                     </svg>
                                 </div>
@@ -85,8 +86,8 @@
                                     <p class="article__desc">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                             </li>
                             <li class="article__item">
-                                <div class="article-box">
-                                    <svg class="article-box__icon" width="70" height="70">
+                                <div class="article__box">
+                                    <svg class="article__icon" width="70" height="70">
                                         <use href="./images/icons.svg#icon-diagram"></use>
                                     </svg>
                                 </div>
@@ -94,8 +95,8 @@
                                     <p class="article__desc">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                             </li>
                             <li class="article__item">
-                                <div class="article-box">
-                                    <svg class="article-box__icon" width="70" height="70">
+                                <div class="article__box">
+                                    <svg class="article__icon" width="70" height="70">
                                         <use href="./images/icons.svg#icon-astronaut"></use>
                                     </svg>
                                 </div>
@@ -107,10 +108,10 @@
             </section>
 
                     <!-- Section Work -->
-            <section class="section work-section">
+            <section class="section section__padding-top">
                 <div class="conteiner">
-                    <h2 class="title working__title">Чем мы занимаемся</h2>
-                    <ul class="work__list">
+                    <h2 class="title section__title">Чем мы занимаемся</h2>
+                    <ul class="work">
                         <li class="working__item">
                             <img src="./images/box1.jpg" alt="компьютерный стол на котором стоит компьютер и планшет" width="370" height="294">
                             <p class="work__desc">Десктопные приложения</p>
@@ -128,16 +129,16 @@
             </section>
 
                     <!-- Section Our Team -->
-            <section class="section team-section">
+            <section class="section section__background">
                 <div class="conteiner">
-                    <h2 class="title team__title">Наша команда</h2>
-                    <ul class="team__list">
+                    <h2 class="title section__title">Наша команда</h2>
+                    <ul class="team">
                         <li class="team__item">
                             <img src="./images/team1.jpg" alt="мужчина с бородой и в очках" width="270" height="260"/>
-                            <div class="team__text">
-                                <h3 class="team__name">Игорь Демьяненко</h3>
+                            <div class="team__box">
+                                <h3 class="team__title">Игорь Демьяненко</h3>
                                 <p class="team__desc" lang="en">Product Designer</p>
-                                <ul class="social__list list">
+                                <ul class="social">
                                     <li class="social__item">
                                         <a class="social__link" href="">
                                             <svg class="social__icon" width="20" height="20">
@@ -171,10 +172,10 @@
                         </li>
                         <li class="team__item">
                             <img src="./images/team2.jpg" alt="девушка блондина в очках" width="270" height="260"/>
-                            <div class="team__text">
-                                <h3 class="team__name">Ольга Репина</h3>
+                            <div class="team__box">
+                                <h3 class="team__title">Ольга Репина</h3>
                                 <p class="team__desc" lang="en">Frontend Developer</p>
-                                <ul class="social__list list">
+                                <ul class="social">
                                     <li class="social__item">
                                         <a class="social__link" href="">
                                             <svg class="social__icon" width="20" height="20">
@@ -208,10 +209,10 @@
                         </li>
                         <li class="team__item">
                             <img src="./images/team3.jpg" alt="молодой человек с бородой" width="270" height="260"/>
-                            <div class="team__text">
-                                <h3 class="team__name">Николай Тарасов</h3>
+                            <div class="team__box">
+                                <h3 class="team__title">Николай Тарасов</h3>
                                 <p class="team__desc" lang="en">Marketing</p>
-                                <ul class="social__list list">
+                                <ul class="social">
                                     <li class="social__item">
                                         <a class="social__link" href="">
                                             <svg class="social__icon" width="20" height="20">
@@ -245,10 +246,10 @@
                         </li>
                         <li class="team__item">
                             <img src="./images/team4.jpg" alt="молодой человек с бородой и в очках" width="270" height="260"/>
-                            <div class="team__text">
-                                <h3 class="team__name">Михаил Ермаков</h3>
+                            <div class="team__box">
+                                <h3 class="team__title">Михаил Ермаков</h3>
                                 <p class="team__desc" lang="en">UI Designer</p>
-                                <ul class="social__list list">
+                                <ul class="social">
                                     <li class="social__item">
                                         <a class="social__link" href="">
                                             <svg class="social__icon" width="20" height="20">
@@ -287,8 +288,8 @@
                     <!-- Section Clients -->
             <section class="section">
                 <div class="conteiner">
-                    <h2 class="title clients__title">Постоянные клиенты</h2>
-                    <ul class="list clients__list">
+                    <h2 class="title section__title">Постоянные клиенты</h2>
+                    <ul class="list clients">
                         <li class="clients__item">
                             <a class="clients__link" href="">
                                 <svg class="clients__icon" width="106" height="60">
@@ -344,22 +345,22 @@
                         <span class="footer-logo__web">Web</span><span class="footer-logo__studio">Studio</span>
                     </a>
                     <address id="contacts" class="contacts-address">
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a class="footer__link-addres" href="https://goo.gl/maps/XqXymraPGeY7W97GA">г. Киев, пр-т Леси Украинки, 26</a>
+                        <ul class="footer-contacts">
+                            <li class="footer-contacts__item">
+                                <a class="footer-contacts__link-addres" href="https://goo.gl/maps/XqXymraPGeY7W97GA">г. Киев, пр-т Леси Украинки, 26</a>
                             </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <li class="footer-contacts__item">
+                                <a class="footer-contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                             </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            <li class="footer-contacts__item">
+                                <a class="footer-contacts__link" href="tel:+380961111111">+38 096 111 11 11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
                 <div class="footer-social">
                     <p class="footer__desc">Присоединяйтесь</p>
-                    <ul class="social__list list">
+                    <ul class="social">
                         <li class="social__item">
                             <a class="social__link footer-social__link" href="">
                                 <svg class="social__icon" width="20" height="20">

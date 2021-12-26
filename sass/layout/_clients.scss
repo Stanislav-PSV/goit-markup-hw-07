@@ -1,11 +1,8 @@
-.clients__list {
+.clients {
   display: flex;
 }
 .clients__item:not(:last-child) {
   margin-right: 30px;
-}
-.clients__title {
-  margin-bottom: 50px;
 }
 .clients__link {
   width: 170px;

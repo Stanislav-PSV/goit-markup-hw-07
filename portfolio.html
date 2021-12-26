@@ -13,42 +13,43 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/main.min.css">
     </head>
+    
     <body>
                     <!-- Sectiov Header -->
         <header class="header">
             <div class="conteiner header__conteiner">
                 <nav class="header__nav">
-                    <a class="logo header-logo" href="./index.html">
-                        <span class="header-logo__web">Web</span>Studio
+                    <a class="logo header__logo" href="./index.html">
+                        <span class="logo__web">Web</span>Studio
                     </a>
-                    <ul class="list header__list">
-                        <li class="header__item">
-                            <a class="header__link" href="./index.html">Студия</a>
+                    <ul class="list site-nav__list">
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="./index.html">Студия</a>
                         </li>
-                        <li class="header__item">
-                            <a class="header__link activ" href="./portfolio.html">Портфолио</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link activ" href="./portfolio.html">Портфолио</a>
                         </li>
-                        <li class="header__item">
-                            <a class="header__link"  href="#contacts">Контакты</a>
+                        <li class="site-nav__item">
+                            <a class="site-nav__link" href="#contacts">Контакты</a>
                         </li>
                     </ul>
-                </nav>                                
-                    <ul class="contacts contacts__list">
-                        <li class="header__item">
-                            <a class="contacts__link" href="mailto:info@devstudio.com">
-                                <svg class="contacts__icon" width="16" height="12">
-                                    <use href="./images/icons.svg#icon-envelope"></use>
-                                </svg>info@devstudio.com
-                            </a>
-                        </li>
-                        <li class="header__item">
+                </nav>
+                <ul class="contacts">
+                    <li class="site-nav__item">
+                        <a class="contacts__link" href="mailto:info@devstudio.com">
+                            <svg class="contacts__icon" width="16" height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="site-nav__item">
                         <a class="contacts__link" href="tel:+380961111111">
                             <svg class="contacts__icon" width="10" height="16">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>+38 096 111 11 11
                         </a>
-                        </li>
-                    </ul>
+                    </li>
+                </ul>
             </div>
         </header>
 
@@ -57,7 +58,7 @@
             <section class="section">
                 <div class="conteiner">
                     <h1 class="visually-hidden">Портфолио</h1>
-                    <ul class="filters__list">
+                    <ul class="filters">
                         <li class="filters__item">
                             <button class="filters__btn" type="button">Все</button>
                         </li>
@@ -74,7 +75,7 @@
                             <button class="filters__btn" type="button">Маркетинг</button>
                         </li>
                     </ul>    
-                    <ul class="portfolio__list">
+                    <ul class="portfolio">
                         <li class="portfolio__item">
                             <a class="portfolio__link" href="">
                                 <div class="portfolio__wrap">
@@ -84,7 +85,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Технокряк</h2>
                                     <p class="portfolio__desc">Веб-сайт</p>
                                 </div>
@@ -99,7 +100,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
                                     <p class="portfolio__desc">Дизайн</p>
                                 </div>
@@ -114,7 +115,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Ресторан Seafood</h2>
                                     <p class="portfolio__desc">Приложение</p>
                                 </div>
@@ -129,7 +130,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Проект Prime</h2>
                                     <p class="portfolio__desc">Маркетинг</p>
                                 </div>
@@ -144,7 +145,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Проект Boxes</h2>
                                     <p class="portfolio__desc">Приложение</p>
                                 </div>
@@ -159,7 +160,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title" lang="en">Inspiration has no Borders</h2>
                                     <p class="portfolio__desc">Веб-сайт</p>
                                 </div>
@@ -174,7 +175,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Издание Limited Edition</h2>
                                     <p class="portfolio__desc">Дизайн</p>
                                 </div>
@@ -189,7 +190,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title">Проект LAB</h2>
                                     <p class="portfolio__desc">Маркетинг</p>
                                 </div>
@@ -204,7 +205,7 @@
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class="portfolio__text">
+                                <div class="portfolio__box">
                                     <h2 class="portfolio__title" lang="en">Growing Business</h2>
                                     <p class="portfolio__desc">Приложение</p>
                                 </div>
@@ -223,23 +224,23 @@
                         <span class="footer-logo__web">Web</span><span class="footer-logo__studio">Studio</span>
                     </a>
                     <address id="contacts" class="contacts-address">
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a class="footer__link-addres" href="https://goo.gl/maps/XqXymraPGeY7W97GA">г. Киев, пр-т Леси
-                                    Украинки, 26</a>
+                        <ul class="footer-contacts">
+                            <li class="footer-contacts__item">
+                                <a class="footer-contacts__link-addres" href="https://goo.gl/maps/XqXymraPGeY7W97GA">г. Киев,
+                                    пр-т Леси Украинки, 26</a>
                             </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <li class="footer-contacts__item">
+                                <a class="footer-contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                             </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+                            <li class="footer-contacts__item">
+                                <a class="footer-contacts__link" href="tel:+380961111111">+38 096 111 11 11</a>
                             </li>
                         </ul>
                     </address>
                 </div>
                 <div class="footer-social">
                     <p class="footer__desc">Присоединяйтесь</p>
-                    <ul class="social__list list">
+                    <ul class="social">
                         <li class="social__item">
                             <a class="social__link footer-social__link" href="">
                                 <svg class="social__icon" width="20" height="20">
